@@ -1,0 +1,23 @@
+/****************/
+/* Desktop view */
+/****************/
+@media (min-width: 1024px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .all-boxes {
+        margin: 2rem 10rem;
+        flex-direction: row;
+        align-content: space-around;
+    }
+
+    .nav-list {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    header {
+        justify-content: left;
+    }
+}

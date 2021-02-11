@@ -1,0 +1,213 @@
+/*********************/
+/* Mobile First view */
+/*********************/
+
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (background_img.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../img/background.jpg");
+    /*background-image: url("../img/background_img.jpg");*/
+
+    /* Set a specific height */
+    width: 100vw;
+    height: 100vh;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #C5C6C7;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+/* NAVBAR STUFF */
+.navbar-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dsve-logo {
+    display: flex;
+    padding: 2rem;
+    width: 40%;
+    filter: invert(70%) drop-shadow(2px 3px 25px #0B0C10) drop-shadow(0 0 25px #c32684) drop-shadow(0 0 1px #297069);
+}
+
+.titles {
+    font-family: 'Shadows Into Light', sans-serif;
+    text-shadow: 2px 3px 25px #0B0C10, 0 0 40px #c32684, 0 0 25px #66FCF1;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.titles:hover {
+    font-family: 'Shadows Into Light', sans-serif;
+    text-shadow: 2px 3px 25px #0B0C10, 0 0 40px #c32684, 0 0 25px #66FCF1;
+    font-size: 2em;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.nav-list a {
+    margin-right: 1rem;
+    padding: 0.25rem 1.25rem;
+    text-decoration: none;
+    color: #C5C6C7;
+}
+
+.nav-list a:hover {
+    color: #11a9cd;
+    font-weight: bolder;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(32, 196, 236);
+}
+
+
+/* MAIN STUFF */
+#fullName {
+    text-align: center;
+    font-family: 'Shadows Into Light', sans-serif;
+    text-shadow: 2px 3px 25px #0B0C10, 0 0 40px #c32684, 0 0 25px #66FCF1;
+    font-size: 4em;
+    margin: 27px 0 0 0;
+    font-weight: lighter;
+}
+
+.all-boxes {
+    margin: 2rem 1rem;
+    padding: 0.5rem 2rem 2rem 2rem;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    box-shadow: 0 0 20px rgb(145, 144, 144);
+}
+
+.all-boxes:hover {
+    box-shadow: 0 0 20px rgb(32, 196, 236);
+}
+
+#selfie {
+    width: 10rem;
+    border: 3px #27404e solid;
+    border-radius: 50%;
+}
+
+#selfie:hover {
+    width: 10rem;
+    border: 3px #11a9cd solid;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(32, 196, 236);
+}
+
+.remove-ul-properties {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.screenshot {
+    width: 12rem;
+    border-radius: 10px;
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.center-screenshot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.add-margin {
+    margin-bottom: 2rem;
+}
+
+.all-boxes-list {
+    padding: 0.25rem 1.25rem;
+    text-decoration: none;
+    color: #C5C6C7;
+}
+
+.all-boxes-list:hover {
+    color: #11a9cd;
+    font-weight: bolder;
+}
+
+
+/* FOOTER STUFF */
+.footer-grid-container-1 {
+    display: grid;
+    grid-template-rows: 50% 25% 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-grid-container-2 {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container-item-1 {
+    grid-column-start: 0;
+    grid-column-end: 1;
+}
+
+.footer-container-item-2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 0 15px;
+}
+
+.footer-container-item-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.glow:hover {
+    filter: drop-shadow(2px 3px 25px #0B0C10) drop-shadow(0 0 25px #c32684) drop-shadow(0 0 1px #297069);
+}
+.logo-size {
+    width: 50px;
+    height: 50px;
+}
+
+#html-logo {
+    filter: invert(70%) drop-shadow(2px 3px 25px #0B0C10) drop-shadow(0 0 25px #c32684) drop-shadow(0 0 1px #297069);
+}
+
+#css-logo {
+    filter: invert(70%) drop-shadow(2px 3px 25px #0B0C10) drop-shadow(0 0 25px #c32684) drop-shadow(0 0 1px #297069);
+}
+
+#javascript-logo {
+    filter: hue-rotate(110deg) drop-shadow(2px 3px 25px #0B0C10) drop-shadow(0 0 25px #c32684) drop-shadow(0 0 1px #297069) brightness(70%);
+}
+
+.footerTag {
+    text-align: center;
+    padding-bottom: 10px;
+}

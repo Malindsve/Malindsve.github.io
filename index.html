@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Shadows+Into+Light&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <title class="">Malin Strömberg</title>
+</head>
+<body class="hero-image">
+
+<div class="navbar-flex-container">
+    <header>
+        <img src="img/logo_malin.svg" id="dsve-logo" alt="dsveLogo">
+    </header>
+    <nav class="titles">
+        <ul class="nav-list">
+            <li onclick="about()"><a href="#">About me</a></li>
+            <li onclick="career()"><a href="#">Career</a></li>
+            <li onclick="courses()"><a href="#">Courses</a></li>
+            <li onclick="projects()"><a href="#">Projects</a></li>
+        </ul>
+    </nav>
+</div>
+<main>
+    <section>
+        <h1 id="fullName">Malin Strömberg</h1>
+    </section>
+    <section>
+        <article id="about" class="all-boxes">
+            <h2 class="titles">About me</h2>
+            <img id="selfie" src="img/malin.jpg" alt="self portrait">
+            <p>Hello, my name is Malin and I'm 30 years old.
+                <br>I live in Skene, Sweden with my two kids Emil 7 years old and Johanna 12 years old. <br>I'm very
+                creative and in my spare time I like renovating
+                furniture, drawing, play games online etc.</p>
+        </article>
+        <article id="career" class="all-boxes">
+            <h2 class="titles">Career</h2>
+            <p>My previous work experience is mostly as a personal assistant, in care for the elderly and as a cook.
+                <br>I decided it was time for me to change my career path and I've always been interested in the
+                IT-world.<br> As covid-19 hit, I had the opportunity to start studying and I've just started to
+                study
+                Frontend Development with focus on web security at Jensen Education in Gothenburg.</p>
+        </article>
+        <article id="courses" class="all-boxes">
+            <h2 class="titles">Courses</h2>
+            <p>During the spring of 2021 I'm gonna attend courses in:</p>
+            <ul class="remove-ul-properties">
+                <li>Frontend development - <i>client</i></li>
+                <li>Basic JavaScript-programming</li>
+                <li>Secure communication</li>
+                <li>Frontend development - <i>server</i></li>
+                <li>Web framework for JavaScript</li>
+            </ul>
+        </article>
+        <article id="projects" class="projectsBox all-boxes">
+            <h2 class="titles">Projects</h2>
+            <ul class="remove-ul-properties center-screenshot">
+                <li><a class="all-boxes-list center-screenshot" href="#">Skulloud</a><img class="screenshot add-margin" src="img/Skulloud.PNG" alt="Skullloud screenshot"></li>
+                <li><a class="all-boxes-list center-screenshot" href="#">Layout exercise</a><img class="screenshot" src="img/layoutexercise.PNG" alt="layout screenshot"></li>
+            </ul>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <section>
+        <article class="footer-grid-container-1">
+            <h2 class="titles footer-container-item-1">Contact me</h2>
+            <a href="https://github.com/Malindsve"
+               class="footer-container-item-2">
+                <img class="logo-size glow" src="img/logo/github.png" alt="githubImg"/>
+            </a>
+            <a href="https:/www.linkedin.com/in/malin-stromberg"
+               class="footer-container-item-3">
+                <img class="logo-size glow" src="img/logo/linkedin.png" alt="linkedInImg"/>
+            </a>
+        </article>
+        <article class="footer-grid-container-2">
+            <img id="html-logo" src="img/logo/html5.png" alt="html5 tag"
+                 class="footer-container-item-1 logo-size">
+            <img id="javascript-logo" src="img/logo/javascript.png" alt="javascript tag"
+                 class="footer-container-item-2 logo-size">
+            <img id="css-logo" src="img/logo/css3.png" alt="css3 tag"
+                 class="footer-container-item-3 logo-size">
+        </article>
+    </section>
+    <section>
+        <p class="footerTag">Malin Strömberg &copy; 2021</p>
+    </section>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
