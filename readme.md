@@ -64,7 +64,7 @@ Create a portfolio-site with HTML and CSS with own design. Only use CSS Grid/Fle
 ### Other
 
 - Make mockup
-  - ![mockup](img/mockup.PNG)
+  - ![mockup](img/mockup.png)
 - Develop semantic HTML and CSS
 - Make it responsive with media queries
 
