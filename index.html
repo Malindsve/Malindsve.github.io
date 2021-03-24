@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Telemarketing</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+</head>
+<body class="hero-image">
+<header class="grid-container">
+    <div id="logo" class="grid-container-item">
+        <h1>Telemarketing</h1>
+    </div>
+    <div id="search" class="grid-container-item">
+        <label for="searchField">
+            <input id="searchField" type="text" placeholder="type something here"
+                   oninput="searchFor(this.value)">
+        </label>
+
+        <div class="dropdown">
+            <button onclick="openMenu()" class="dropdown-button">Dropdown</button>
+            <div id="dropdown" class="dropdown-content">
+                <a href="#home">Home</a>
+                <h2>Titel</h2>
+                <p>Some text</p>
+                <button onclick="closeMenu()">Close</button>
+            </div>
+
+        </div>
+    </div>
+</header>
+<main>
+    <section>
+        <article>
+            <h3>Phone numbers to call today:</h3>
+            <h4>Name - Number</h4>
+            <p id="content"></p>
+        </article>
+    </section>
+</main>
+<footer>
+
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/fetch_API.js"></script>
+<script src="js/dropdown.js"></script>
+</body>
+</html>
